@@ -1,0 +1,140 @@
+#box1 {
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    animation-name: animationbox;
+    animation-duration: 2s;
+    animation-delay: 0ms;
+    animation-iteration-count: infinite;
+}
+
+.box{
+    animation-play-state: paused;
+}
+
+@keyframes animationbox {
+    0% {
+        transform: translateX(0px) translateY(0px);
+        background-color: blueviolet;
+    }
+
+    25% {
+        transform: translateX(600px) translateY(600px);
+        background-color: rosybrown;
+    }
+
+    50% {
+        transform: translateX(600px) translateY(600px);
+        background-color: black;
+    }
+
+    75% {
+        transform: translateX(600px) translateY(600px);
+    }
+
+    100% {
+        transform: translateX(600px) translateY(600px);
+    }
+}
+
+#box2 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: animationbox2;
+    animation-duration: 2s;
+    animation-delay: 0ms;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animationbox2 {
+    0% {
+        transform: translateX(600px) translateY(600px);
+    }
+
+    25% {
+        transform: translateX(0px) translateY(0px);
+    }
+
+    50% {
+        transform: translateX(0px) translateY(0px);
+    }
+
+    75% {
+        transform: translateX(0px) translateY(0px);
+    }
+
+    100% {
+        transform: translateX(0px) translateY(0px);
+    }
+}
+
+#box3 {
+    width: 100px;
+    height: 100px;
+    background-color: thistle;
+    animation-name: animationbox3;
+    animation-duration: 1.6s;
+    animation-delay: 0ms;
+    animation-iteration-count: infinite;
+}
+
+
+
+
+@keyframes animationbox3 {
+    0% {
+        transform: translateX(600px) translateY(-100px);
+    }
+
+    100% {
+        transform: translateX(0px) translateY(400px);
+    }
+}
+
+
+
+#box4 {
+    width: 100px;
+    height: 100px;
+    background-color: darkcyan;
+    animation-name: animationbox4;
+    animation-duration: 1.6s;
+    animation-delay: 0ms;
+    animation-iteration-count: infinite;
+}
+
+
+
+
+@keyframes animationbox4 {
+    0% {
+        transform: translateX(0px) translateY(300px);
+    }
+
+    100% {
+        transform: translateX(600px) translateY(-200px);
+    }
+}
+
+#box5 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    animation-name: animationbox5;
+    animation-duration: 20s;
+    animation-delay: 0ms;
+    animation-iteration-count: infinite;
+}
+
+
+
+
+@keyframes animationbox5 {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(50000);
+    }
+}
